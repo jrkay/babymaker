@@ -1,32 +1,56 @@
-body{
+body {
   font-size:20px;
-  background: rgb(198,174,238);
-  background: linear-gradient(90deg, rgba(198,174,238,0.23339758266587884) 0%, rgba(162,236,221,0.379055845971201) 100%);
-  }
+  background: rgb(37, 35, 39);
+  background: linear-gradient(90deg, rgba(60, 0, 119, 0.233) 0%, rgba(0, 58, 46, 0.379) 100%);
+}
   
-  h1 {
-      font-family: 'Dosis', sans-serif;
-      font-weight: 400;
-      line-height: 46px;
-      font-size: 40px;
-      margin: 0 0 23px 0;
-      }
-  h2 {
-      font-family: 'Dosis', sans-serif;
-      font-weight: 800;
-      font-size: 18px;
-      line-height: 23px;
-      margin: 0 0 5px 0;
-    
-      }
-  p {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 14px;
-      line-height: 23px;
-      margin: 0 0 23px 0;
-      }
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  line-height: 46px;
+  font-size: 40px;
+  margin: 0 0 23px 0;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0 0 5px 0;
+}
+
+h3 {
+  padding-top:10px;
+  letter-spacing:3px;
+  color: white;
+  font-size:35px;
+  margin-bottom:-10px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
   
-  #title{
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+#title {
   float:right;
   position:absolute;
   bottom:0;
@@ -36,45 +60,45 @@ body{
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
   padding:5px;
-  }
-  
-  #subTitle{
+}
+
+#subTitle {
   position:absolute;
   float:right;
   bottom:0;
   right:0;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 16px;
-    padding-right:5px;
-    font-weight:500;
-  }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-right:5px;
+  font-weight:500;
+}
   
-  .centerbox{
+.centerbox {
   margin-top:50px;
   width:850px;
   padding:10px;
   position: absolute;
   left: 50%;
-  margin-left: -425px
-  }
-  
-  .sire{
+  margin-left: -425px;
+}
+
+.sire {
   border:none;
   width:400px;
   float:left;
   text-align:center;
   margin-top:100px;
-  }
-  
-  .dam{
+}
+
+.dam {
   border:none;
   width:400px;
   float:right;
   text-align:center;
   margin-top:100px;
-  }
-  
-  select{
+}
+
+select {
   outline: 0;
   border-radius: 10px;
   border:1px solid black;
@@ -83,24 +107,24 @@ body{
   width:250px;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
-  }
-  
-  label
-  {
+}
+
+label {
   width: 400px;
   text-align: center;
   margin-right: 0.5em;
   display: block;
-      font-family: 'Dosis', sans-serif;
-      font-weight: 400;
-      line-height: 46px;
-      font-size: 40px;
-  }
-  
-  .submit {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  line-height: 46px;
+  font-size: 40px;
+}
+
+.submit {
   text-align:center;
-  }
-  .submit input{
+}
+
+.submit input {
   outline: 0;
   margin-top:30px;
   background:rgba(255,255,255,.3);
@@ -109,90 +133,65 @@ body{
   font-size:30px;
   letter-spacing:3px;
   border-radius: 10px;
-      font-family: 'Dosis', sans-serif;
-      font-weight: 400;
-      line-height: 46px;
-    letter-spacing:.2em;
-  }
-  
-  focus{
-  outline:none;
-  }
-  .result{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing:.2em;
+}
+
+focus {
+  outline: none;
+}
+
+.result {
   text-align:center;
   width:900px;
   margin-left:-10px;
-  }
-  .result input{
+}
+
+.result input {
   outline:none;
   border:none;
   background:none;
   text-align:center;
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
-  
   font-size: 50px;
-  }
-  .result #foalTwo{
+}
+
+.result #foalTwo {
   font-size:20px;
   width:600px;
-  }
-  .error {
+}
+
+.error {
   color:red;
-  }
-  
-  h3{
-  padding-top:10px;
-  letter-spacing:3px;
-  color: white;
-  font-size:35px;
-  margin-bottom:-10px;
-  }
-  
-  .slide-out-div {
-      padding: 20px;
-      width: 200px;
-      background: rgba(255,255,255,.3);
-      border: none;
-    border-radius: 10px;
-    font-size:17px;
-  }      
-  
-  a:link {
-  text-decoration: none;
-  color: black;
-  }
-  
-  a:visited {
-  text-decoration: none;
-  color: black;
-  }
-  
-  a:active {
-  text-decoration: none;
-  color: black;
-  }
-  
-  
-  #particles-js{
-    width: 100%;
-    height: 100%;
-  }
-  
-.parentInputBox{
+}
+
+.parentInputBox {
   border:1px solid black;
   width: 50%;
   margin: 0 auto;
   padding:20px;
 }
 
-.parentInputBox label{
+.parentInputBox label {
   font-size: 28px;
   width:auto !important;
 }
 
-.parentInputBox button{
+.parentInputBox button {
   display: block;
   margin: 0 auto;
   padding: 5px 35px;
+}
+
+.contentPane {
+  width:50%;
+  margin: 0 auto;
+}
+
+.inputTitles {
+  text-align:center;
+  margin-top: 30px;
 }

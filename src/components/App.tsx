@@ -11,9 +11,9 @@ class App extends Component {
       <div id="title">BabyMaker</div>
       &nbsp; {/*for background color */}
       <div className="contentPane">
-        <span>Generate foal with genotypes</span>
+        <div className="inputTitles">Generate foal with genotypes</div>
         <ParentGeno />
-        <span>Generate foal with phenotypes</span>
+        <div className="inputTitles">Generate foal with phenotypes</div>
         <ParentPheno />
       </div>
     </div>
